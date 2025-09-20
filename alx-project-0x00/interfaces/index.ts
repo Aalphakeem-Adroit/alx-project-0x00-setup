@@ -4,7 +4,7 @@ export interface PillProps {
 
 export interface ButtonProps {
     title: string
-    styles?: string
+    styles: string
     sizes?: "small" | "medium" | "large"
-    shapes?: "rounded-sm" | "rounded-md" | "rounded-lg"
+    shapes?: "rounded-sm" | "rounded-md" | "rounded-full"
 }
